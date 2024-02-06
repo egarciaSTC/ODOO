@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+                
+        <menuitem 
+            id="main_menu_service_detail"
+            name="Detalle de Servicio"
+            web_icon="modulo_prueba,static/description/icon.png"/>
+
+        <menuitem name="Servicios" id="main_menu_servicios"
+                parent="main_menu_service_detail"/>
+    </data>
+</odoo>
